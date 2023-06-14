@@ -11,10 +11,11 @@ print(full_name) # print var
 
 age = 18
 age += 1
-print(age) 
+print(full_name + " "+ str(age) ) #con str() podemos cambiar el tipo de var a uno de string!!
 
 heigth = 1.68
 print(heigth)
 
-
+human = True
+print ( "are you human?" + " " +str( human) )
 
